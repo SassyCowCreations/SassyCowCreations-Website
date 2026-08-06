@@ -33,7 +33,7 @@ window.SASSY_PRODUCTS = [
   {
     id: "monster-holder-white",
     name: "Monster Can Holder - White",
-    price: 14.99,
+    price: 7.95,
     category: "Can Holders",
     featured: true,
     badge: "New",
@@ -46,7 +46,7 @@ window.SASSY_PRODUCTS = [
   },
   {
     id: "can-tab-charms",
-    name: "Can Tab Opener",
+    name: "Monster Can Tab Opener",
     price: 3.75,
     category: "Drink Accessories",
     featured: true,
@@ -55,9 +55,60 @@ window.SASSY_PRODUCTS = [
     description: "Add a playful finishing touch with a can tab opener charm. Choose from available designs and attach it to keys, bags or one of our can holders. Please state your preferred design when ordering.",
     images: [
       "assets/images/products/can-tab-monster-black.png",
-      "assets/images/products/can-tab-monster-white.png",
-      "assets/images/products/can-tab-peach.png",
-      "assets/images/products/can-tab-redbull.png"
     ]
   }
 ];
+ {
+id: "can-tab-charms",
+    name: "Monster Can Tab Opener",
+    price: 3.75,
+    category: "Drink Accessories",
+    featured: true,
+    badge: "Mix & Match",
+    short: "A handmade miniature drinks-can charm for keys, bags or can holders.",
+    description: "Add a playful finishing touch with a can tab opener charm. Choose from available designs and attach it to keys, bags or one of our can holders. Please state your preferred design when ordering.",
+    images: [
+      "assets/images/products/can-tab-monster-white.png",    ]
+  }
+];
+    {
+id: "can-tab-charms",
+    name: "Monster Can Tab Opener",
+    price: 3.75,
+    category: "Drink Accessories",
+    featured: true,
+    badge: "Mix & Match",
+    short: "A handmade miniature drinks-can charm for keys, bags or can holders.",
+    description: "Add a playful finishing touch with a can tab opener charm. Choose from available designs and attach it to keys, bags or one of our can holders. Please state your preferred design when ordering.",
+    images: [
+      "assets/images/products/can-tab-peach.png",
+]
+  }
+];
+ {
+id: "can-tab-charms",
+    name: "Monster Can Tab Opener",
+    price: 3.75,
+    category: "Drink Accessories",
+    featured: true,
+    badge: "Mix & Match",
+    short: "A handmade miniature drinks-can charm for keys, bags or can holders.",
+    description: "Add a playful finishing touch with a can tab opener charm. Choose from available designs and attach it to keys, bags or one of our can holders. Please state your preferred design when ordering.",
+    images: [
+      "assets/images/products/can-tab-redbull.png",
+]
+  }
+];
+ {
+   id: "red bull",
+    name: "Red Bull Original 250ml",
+    price: 7.95,
+    category: "Can Holders",
+    featured: true,
+    badge: "Bestseller",
+    short: "A handmade black can holder with hinged lid, handle and matching charm.",
+    description: "Keep your favourite canned drink secure and easy to carry with this handmade black can holder. It includes a hinged top, sturdy handle and matching can tab opener. Each item is handmade, so small variations make every piece unique.",
+    images: [
+      "assets/images/products/monster-holder-black-1.png",
+    ]
+  },
