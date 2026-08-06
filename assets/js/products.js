@@ -48,7 +48,7 @@ window.SASSY_PRODUCTS = [
     id: "can-tab-charms",
     name: "Can Tab Opener",
     price: 3.75,
-    category: "Accessories",
+    category: "Drink Accessories",
     featured: true,
     badge: "Mix & Match",
     short: "A handmade miniature drinks-can charm for keys, bags or can holders.",
