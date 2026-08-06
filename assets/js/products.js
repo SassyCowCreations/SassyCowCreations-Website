@@ -95,7 +95,7 @@ window.SASSY_PRODUCTS = [
     ]
   },
   {
-    id: "red-bull-can-holder 250ml",
+    id: "red-bull-can-holder-250ml",
     name: "Red Bull Original 250ml Can Holder",
     price: 7.95,
     category: "Can Holders",
@@ -109,7 +109,7 @@ window.SASSY_PRODUCTS = [
     ]
   },
    {
-    id: "red-bull-can-holder 500ml",
+    id: "red-bull-can-holder-500ml",
     name: "Red Bull Original 500ml Can Holder",
     price: 7.95,
     category: "Can Holders",
@@ -122,12 +122,13 @@ window.SASSY_PRODUCTS = [
       "assets/images/products/Red Bull 3.png"
     ]
   },
-  {
+ {
     id: "bow-can-cooler",
     name: "Bow Can Cooler",
     price: 12.99,
     category: "Can Holders",
-    featured: False,
+    featured: false,
+    badge: "",
     short: "A handmade can cooler that comes as a set with a bow straw topper and a bow can tab opener.",
     description: "A handmade can cooler with a decorative bow design. Ideal for keeping your canned drink secure while adding a unique handmade touch.",
     images: [
@@ -135,39 +136,44 @@ window.SASSY_PRODUCTS = [
       "assets/images/products/Bow Cooler 2.png"
     ]
   },
- {
-    id: "Pepsi Cooler",
+  {
+    id: "pepsi-cooler",
     name: "Pepsi Cooler",
     price: 12.99,
     category: "Can Holders",
     featured: true,
     badge: "New Item",
-    short: "A handmade can cooler that will come with a matching can tab opener.",
-    description: "A handmade can cooler for every Pepsi fan!. Ideal for keeping your canned drink secure while adding a unique handmade touch.",
+    short: "A handmade can cooler that comes with a matching can tab opener.",
+    description: "A handmade can cooler for every Pepsi fan. Ideal for keeping your canned drink secure while adding a unique handmade touch.",
     images: [
       "assets/images/products/Pepsi Cooler 1.png",
-      "assets/images/products/Pepsi Cooler 2.png",
+      "assets/images/products/Pepsi Cooler 2.png"
     ]
-},
+  },
   {
     id: "can-tab-grinch",
     name: "Grinch Can Tab Opener Set",
     price: 3.75,
     category: "Drink Accessories",
     featured: false,
-    short: "A The Grinch drinks-can tab opener charm and straw topper set.",
+    badge: "",
+    short: "A Grinch-inspired drinks-can tab opener charm and straw topper set.",
     description: "Add a playful finishing touch with this handmade can tab opener and straw topper set. Attach it to keys, bags or one of our can holders.",
     images: [
       "assets/images/products/Grinch.png"
-      ]
-},
+    ]
+  },
   {
     id: "can-tab-myers",
     name: "Michael Myers Can Tab Opener Set",
     price: 3.75,
     category: "Drink Accessories",
     featured: false,
-    short: "A horror inspired Michael Myers drinks-can tab opener charm and straw topper set.",
-    description: "Something for the horro lovers! A Michael Myers inspired can tab opener and straw topper set. Attach it to keys, bags or one of our can holders.",
+    badge: "",
+    short: "A horror-inspired Michael Myers drinks-can tab opener charm and straw topper set.",
+    description: "Something for horror lovers. A Michael Myers-inspired can tab opener and straw topper set. Attach it to keys, bags or one of our can holders.",
     images: [
       "assets/images/products/Michael Myers.png"
+    ]
+  }
+];
