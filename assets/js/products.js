@@ -109,6 +109,22 @@ id: "can-tab-charms",
     short: "A handmade black can holder with hinged lid, handle and matching charm.",
     description: "Keep your favourite canned drink secure and easy to carry with this handmade black can holder. It includes a hinged top, sturdy handle and matching can tab opener. Each item is handmade, so small variations make every piece unique.",
     images: [
-      "assets/images/products/monster-holder-black-1.png",
+      "assets/images/products/Red Bull 1.png",
+     "assets/images/products/Red Bull 2.png",
+     "assets/images/products/Red Bull 3.png",
     ]
+  },
+ {
+   id: "bow cooler",
+    name: "Red Bull Original 250ml",
+    price: 12.99,
+    category: "Can Holders",
+    featured: true,
+    badge: "Bestseller",
+    short: "A handmade black can holder with hinged lid, handle and matching charm.",
+    description: "Keep your favourite canned drink secure and easy to carry with this handmade black can holder. It includes a hinged top, sturdy handle and matching can tab opener. Each item is handmade, so small variations make every piece unique.",
+    images: [
+      "assets/images/products/Bow Cooler 1.png",
+     "assets/images/products/Bow Cooler 2.png",
+      ]
   },
