@@ -37,6 +37,22 @@ renderProducts('#all-products', products);
 
 const search = document.querySelector('#product-search');
 const category = document.querySelector('#category-filter');
+if (category) {
+  const categories = [...new Set(
+    products
+      .map(product => product.category)
+      .filter(Boolean)
+  )].sort();
+
+  category.innerHTML = `
+    <option value="all">All categories</option>
+    ${categories
+      .map(categoryName => `
+        <option value="${categoryName}">${categoryName}</option>
+      `)
+      .join('')}
+  `;
+}
 function applyFilters() {
   const q = (search?.value || '').toLowerCase().trim();
   const cat = category?.value || 'all';
